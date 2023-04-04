@@ -7,13 +7,13 @@ import { create as ipfsHttpClient } from "ipfs-http-client";
 
 // const client = ipfsHttpClient("https://ipfs.infura.io:5001/api/v0");
 
-const projectId = "Your Project Id";
-const projectSecretKey = "Your project secret Key";
+const projectId = "2NyUdkZQJB31FDFIk43CXsWPYHE";
+const projectSecretKey = "063525f210a7022d38c2e12e400e85de";
 const auth = `Basic ${Buffer.from(`${projectId}:${projectSecretKey}`).toString(
   "base64"
 )}`;
 
-const subdomain = "your sub domain";
+const subdomain = "https://ayobami-nft-marketplace.infura-ipfs.io";
 
 const client = ipfsHttpClient({
   host: "infura-ipfs.io",
